@@ -1,6 +1,5 @@
 require 'sinatra'
 
-#get 'newvideo' do
 get '/' do
   base_ted_url = "http://ted.com/talks/view/id/"
   max_video_number = 1619 
